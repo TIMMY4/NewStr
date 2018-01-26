@@ -1,5 +1,6 @@
 
 package bellringerjan25;
+import java.util.*;
 
 /**
  * Create a program that 
@@ -17,7 +18,11 @@ public class BellRingerJan25 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
+        System.out.println("Type something");
+        Scanner s= new Scanner(System.in);
+       NewStringImpl message= new NewStringImpl(s.nextLine());
+       System.out.println(message.flipped());
+       System.out.println(message.length());
     }
     
 }

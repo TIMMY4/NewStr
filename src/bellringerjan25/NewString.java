@@ -42,6 +42,6 @@ public interface NewString {
      * 
      * @return 
      */
-    public String everyOtherCap();
+   // public String everyOtherCap();
     
 }
